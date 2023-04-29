@@ -7,8 +7,9 @@ import { AppRoutingModule } from './app-routing.module'
 import { SaleComponent } from './components/screens/sale/sale.component'
 import { FavoritesComponent } from './components/screens/favorites/favorites.component'
 import { ProfileComponent } from './components/screens/profile/profile.component'
-import { ProductComponent } from './components/screens/product/product.component'
-import { FoodItemComponent } from './components/screens/home/food-item/food-item.component'
+import { HttpClientModule } from '@angular/common/http'
+import { HomeModule } from './components/screens/home/home.module'
+import { FormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -16,10 +17,16 @@ import { FoodItemComponent } from './components/screens/home/food-item/food-item
     SaleComponent,
     FavoritesComponent,
     ProfileComponent,
-    ProductComponent,
-    FoodItemComponent,
   ],
-  imports: [BrowserModule, LayoutModule, HeaderModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    LayoutModule,
+    HeaderModule,
+    AppRoutingModule,
+    HomeModule,
+    FormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

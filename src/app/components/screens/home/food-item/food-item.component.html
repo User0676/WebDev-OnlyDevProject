@@ -1,1 +1,7 @@
-<p>food-item works!</p>
+<a [routerLink]="'/food/' + food.id" class="item">
+  <img [src]="food.image" [alt]="food.title" />
+  <span clas="heading"> {{ food.title }} </span>
+  <span class="price">
+    {{ food.price | currency : 'Ten' }}
+  </span>
+</a>

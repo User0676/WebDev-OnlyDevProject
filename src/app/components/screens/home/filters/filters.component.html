@@ -1,1 +1,26 @@
-<p>filters works!</p>
+<div class="filters">
+  <button
+    (click)="handleFilter('burger')"
+    [ngClass]="{ active: type === 'burger' }"
+  >
+    <img src="https://cdn.onlinewebfonts.com/svg/img_478376.png" alt="burger" />
+  </button>
+  <button (click)="handleFilter('taco')">
+    <img
+      src="https://cdn-icons-png.flaticon.com/512/180/180610.png"
+      alt="taco"
+    />
+  </button>
+  <button (click)="handleFilter('chicken')">
+    <img
+      src="https://cdn-icons-png.flaticon.com/512/6376/6376541.png"
+      alt="chicken"
+    />
+  </button>
+  <button (click)="handleFilter('drink')">
+    <img
+      src="https://cdn-icons-png.flaticon.com/512/4474/4474385.png"
+      alt="drink"
+    />
+  </button>
+</div>

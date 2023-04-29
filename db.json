@@ -1,48 +1,60 @@
 {
-  "products": [
+  "food": [
     {
       "id": 1,
       "title": "Beef Burger",
       "price": 1800,
       "type": "burger",
-      "image": ""
+      "image": "https://w7.pngwing.com/pngs/369/24/png-transparent-hamburger-chicken-sandwich-veggie-burger-fast-food-burger-king-food-recipe-fast-food-restaurant.png"
     },
     {
       "id": 2,
       "title": "Chicken Burger",
       "price": 2200,
       "type": "burger",
-      "image": ""
+      "image": "https://w7.pngwing.com/pngs/378/75/png-transparent-chicken-burger-hamburger-kfc-fried-chicken-european-cuisine-gourmet-burgers-food-recipe-decorative.png"
     },
     {
       "id": 3,
       "title": "BigMac",
       "price": 1300,
       "type": "burger",
-      "image": ""
+      "image": "https://w7.pngwing.com/pngs/75/843/png-transparent-mcdonald-s-big-mac-fast-food-hamburger-eating-big-mac-food-cheeseburger-american-food-thumbnail.png"
     },
     {
       "id": 4,
       "title": "Cheese Burger",
       "price": 1600,
       "type": "burger",
-      "image": ""
+      "image": "https://e7.pngegg.com/pngimages/343/134/png-clipart-whopper-cheeseburger-hamburger-big-king-chophouse-restaurant-cheese-burger.png"
     },
-    { "id": 5, "title": "Taco", "price": 1200, "type": "taco", "image": "" },
+    {
+      "id": 5,
+      "title": "Taco",
+      "price": 1200,
+      "type": "taco",
+      "image": "https://w7.pngwing.com/pngs/873/587/png-transparent-taco-taco-time-burrito-mexican-cuisine-taco-bell-tacos-food-recipe-fast-food-restaurant-thumbnail.png"
+    },
     {
       "id": 6,
       "title": "Chicken  Wrap",
       "price": 3200,
       "type": "chicken",
-      "image": ""
+      "image": "https://w7.pngwing.com/pngs/291/125/png-transparent-wrap-barbecue-chicken-buffalo-wing-crispy-fried-chicken-kebab-chicken-crispy.png"
     },
     {
       "id": 7,
       "title": "Coca Cola",
       "price": 300,
       "type": "drink",
-      "image": ""
+      "image": "https://e7.pngegg.com/pngimages/328/478/png-clipart-1-5-liter-coca-cola-bottle-world-of-coca-cola-soft-drink-papua-new-guinea-the-coca-cola-company-coca-cola-bottle-food-cola.png"
     },
-    { "id": 8, "title": "Irn Bru", "price": 600, "type": "drink", "image": "" }
+    {
+      "id": 8,
+      "title": "Irn Bru",
+      "price": 600,
+      "type": "drink",
+      "image": "https://e7.pngegg.com/pngimages/788/578/png-clipart-irn-bru-fizzy-drinks-a-g-barr-energy-drink-diet-coke-drink-food-24-x.png"
+    }
   ]
 }
